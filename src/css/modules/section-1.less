@@ -4,3 +4,19 @@
         background: url('../img/Star.png') center / contain no-repeat;
     }
 }
+.pic{
+    position: relative;
+    min-width: 422px;
+    align-items: center;
+    top: -10px;
+    background: #fff;
+    &::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 65px;
+        background: url('../img/Vector (1).png') center / contain no-repeat;
+        top: 0;
+        transform: translateY(calc(-100% + 1px));
+    }
+}
