@@ -10,30 +10,28 @@
 <body class="flex flex-col">
     <header>
         <div class="wrapper">
-            <div class="flex content-center justify-between flex-wrap p-2.5">
+            <div class="flex content-center lg:justify-between sm:justify-center flex-wrap p-2.5">
                 <div class="flex py-2.5 items-center">
-                    <img src="./img/logo-suntour.svg" alt="logo" class="w-44 pr-2.5	">
-                    <p class="text-white text-base w-36 pl-2.5 flex flex-wrap items-center mt-2.5">
-                        Сеть турагенств 
-                        «Солнце в кругу»
+                    <img src="./img/logo-suntour.svg" alt="logo" class="sm:w-44 w-40 pr-2.5	">
+                    <p class="text-white text-base  pl-2.5 flex flex-wrap items-center mt-2.5">
+                        Мережа турагенств
+                        <br>
+                        «Сонце в колі»
                     </p>
                 </div>
                 <div class="flex items-center gap-x-6 flex-wrap">
-                    <a href="tel: 044 123-45-67" class="text-white text-3xl">
+                    <a href="tel: 044 123-45-67" class="text-white text-2xl sm:text-3xl">
                         044 123-45-67
                     </a>
                     <a href="" class="text-white text-base underline decoration-dotted decoration-1 underline-offset-4 decoration-white/50">
-                        обратный звонок
+                        зворотний дзвінок
                     </a>
                     <div class="flex">
                         <a href="">
-                            <img src="./img/facebook.png" class="w-8">
+                            <img src="./img/facebook.png" alt="facebook" width="32" height="32">
                         </a>
                         <a href="">
-                            <img src="./img/google.png" alt="" class="w-8 mx-2.5">
-                        </a>
-                        <a href="">
-                            <img src="./img/instagram-logo.png" alt="" class="w-8">
+                            <img src="./img/logos_telegram.png" alt="telegram" width="32" height="32" class="mx-2.5">
                         </a>
                     </div>
                 </div>
@@ -43,13 +41,14 @@
     <section class="my-2.5">
         <div class="wrapper">
             <div class="flex flex-col p-2.5">
-                <div class="min-h-[530px] relative my-2.5">
+                <div class="min-h-[530px] min-h-[350px] relative flex my-2.5">
                     <img src="./img/image.png" alt="" class="object-cover h-auto">
-                    <div class="absolute bottom-5 left-8 lg:w-[250px] lg:min-h-[250px] bg-light-yellow/70 rounded-full flex
-                    flex-col justify-center items-center text-center flex-wrap md:w-[200px]">
-                        <p class="font-Trebuchet font-bold text-2xl" >
+                    <div class="absolute lg:bottom-5 bottom-12 left-8 lg:w-[250px] lg:min-h-[250px] bg-light-yellow/70 rounded-full flex
+                    flex-col justify-center items-center text-center flex-wrap w-[180px] min-h-[180px]">
+                        <p class="font-Trebuchet font-bold lg:text-2xl md:xl" >
                             Тур 
-                        <br/>
+                        </p>
+                        <p class="font-Trebuchet font-bold lg:text-2xl md:xl">
                             в Созополь, Болгария
                         </p>
                         <span class="font-Trebuchet font-bold my-1">
@@ -57,114 +56,119 @@
                         </span>
                         <div class="lg:text-2xl md:text-xl text-white font-Trebuchet font-bold bg-black px-0.5">
                             3094119
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="flex">
-                <div class="flex flex-col my-2.5 flex-wrap">
-                    <div class=" my-5">
-                        <div class="flex ">
-                            <a class="underline font-Trebuchet font-bold text-4xl underline-offset-8 decoration-1 decoration-black/25 mr-2.5" href="">Aquamarine hotel</a>
-                            <div class="flex items-center mx-2.5">
-                                <div class="star active w-7 h-7"></div>
-                                <div class="star active w-7 h-7"></div>
-                                <div class="star active w-7 h-7"></div>
-                                <div class="star w-7 h-7"></div>
-                                <div class="star w-7 h-7"></div>
-                            </div>
-                            <div class="font-Trebuchet font-bold text-4xl ml-2.5">
-                                $256
-                            </div>
-                        </div>
-                        </div>
-                        <div class="flex my-5 gap-x-6 items-center">
-                            <p class="text-sm">
-                                Оценка отеля
-                                <br/>
-                                <a href="" class="font-bold">
-                                    45 отзывов
-                                </a>
-                            </p>
-                            <div class="flex gap-x-6 items-center">
-                                <div class=" w-[52px] min-h-[52px] bg-[#00BFF3] text-2xl font-bold text-white py-2 text-center">8,4</div>
-                                <div class="text-xs">
-                                    номер
-                                    <br/>
-                                    <span class="text-lg font-bold leading-5">
-                                        8,9
-                                    </span>
+            <div class="grid sm:grid-cols-12 p-2.5 grid-cols-1">
+                <div class="flex flex-col my-2.5 flex-wrap col-span-7">
+                    <div class="md:my-5 mb-5">
+                        <div class="flex flex-wrap gap-y-4">
+                            <a class="underline font-Trebuchet font-bold  md:text-center text-4xl underline-offset-8 decoration-1 decoration-black/25 mr-2.5" href="">
+                                Aquamarine hotel
+                            </a>
+                            <div class="flex">
+                                <div class="flex items-center mx-2.5">
+                                    <div class="star active w-7 h-7"></div>
+                                    <div class="star active w-7 h-7"></div>
+                                    <div class="star active w-7 h-7"></div>
+                                    <div class="star w-7 h-7"></div>
+                                    <div class="star w-7 h-7"></div>
                                 </div>
-                                <div class="text-xs">
-                                    питание
-                                    <br/>
-                                    <span class="text-lg font-bold leading-5">
-                                        8,1
-                                    </span>
-                                </div>
-                                <div class="text-xs">
-                                    сервис
-                                    <br/>
-                                    <span class="text-lg font-bold leading-5">
-                                        7,9
-                                    </span>
-                                </div>
-                                <div class="text-xs">
-                                    инфраструктура
-                                    <br/>
-                                    <span class="text-lg font-bold leading-5">
-                                        8,9
-                                    </span>
+                                <div class="font-Trebuchet font-bold text-4xl ml-2.5">
+                                    $256
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="pic flex flex-col">
-                        <div class="text-[88px] text-[#777777] font-Trebuchet text-center leading-[102px]">
-                            320
-                        </div>
-                        <p class="text-3xl leading-8">
-                            солнечных 
+                    <div class="flex flex-wrap md:flex-nowrap my-5 gap-x-6 items-center">
+                        <p class="text-sm">
+                            Оцінка готелю
                             <br/>
-                            дней в году
+                            <a href="" class="font-bold">
+                                45 відгуків
+                            </a>
                         </p>
+                        <div class="flex flex-wrap sm:flex-nowrap gap-6 items-center">
+                            <div class=" w-[52px] min-h-[52px] bg-[#008BAA] text-2xl font-bold text-white py-2 text-center">
+                                8,4
+                            </div>
+                            <div class="text-xs">
+                                номер
+                                <br/>
+                                <span class="text-lg font-bold leading-5">
+                                    8,9
+                                </span>
+                            </div>
+                            <div class="text-xs">
+                                харчування
+                                <br/>
+                                <span class="text-lg font-bold leading-5">
+                                    8,1
+                                </span>
+                            </div>
+                            <div class="text-xs">
+                                сервіс
+                                <br/>
+                                <span class="text-lg font-bold leading-5">
+                                    7,9
+                                </span>
+                            </div>
+                            <div class="text-xs">
+                                інфраструктура
+                                <br/>
+                                <span class="text-lg font-bold leading-5">
+                                    8,9
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="pic flex sm:flex-col col-span-5 flex-row gap-x-4">
+                    <div class="md:text-[88px] text-6xl lg:p-2 md:p-1.5 text-[#777777] font-Trebuchet text-center">
+                        320
+                    </div>
+                    <p class="lg:text-3xl sm:leading-8 text-xl leading-4">
+                        сонячних 
+                        <br/>
+                        днів на рік
+                    </p>
+                </div>
             </div>
-            
         </div>
     </section>
     <section>
         <div class="wrapper">
-            <div class="flex flex-wrap my-5 justify-between">
+            <div class="flex flex-wrap  m-2.5 md:justify-center md:gap-15  lg:gap-3 ">
                 <div class="">
-                    <img src="./img/camel.png" alt="camel" class="max-w-[500px] my-2.5 ">
+                    <img src="./img/camel.png" alt="camel" class=" lg:max-w-[500px] my-2.5">
                     <div class="flex justify-between">
                         <div class="flex flex-col">
-                            <a class="underline font-Trebuchet font-bold text-4xl underline-offset-8 decoration-1 decoration-black/25 mr-2.5 my-2.5 hover:text-[#CB0000]" href="">
-                                Шелковый путь
+                            <a class="underline font-Trebuchet font-bold sm:text-4xl text-3xl underline-offset-8 decoration-1 decoration-black/25 mr-2.5 my-2.5 hover:text-[#CB0000]" href="">
+                                Шовковий шлях
                             </a>
                             <p class="">
-                                Экстремальный маршрут
+                                Екстремальний маршрут
                             </p>
                         </div>
-                        <div class="font-Trebuchet font-bold text-4xl  my-2.5">
+                        <div class="font-Trebuchet font-bold sm:text-4xl text-3xl my-2.5">
                             $158
                         </div>
                     </div>
                 </div>
                 <div class="flex flex-col ">
-                    <img src="./img/ropejumping.png" alt="" class="max-w-[500px] my-2.5  min-h-[280px]">
+                    <img src="./img/ropejumping.png" alt="" class="lg:max-w-[500px] my-2.5 lg:min-h-[280px]">
                     <div class="flex justify-between">
                         <div class="flex flex-col">
-                            <a class="underline font-Trebuchet font-bold text-4xl underline-offset-8 decoration-1 decoration-black/25  my-2.5  text-black hover:text-[#CB0000]" href="">
-                                Роупджампинг
+                            <a class="underline font-Trebuchet font-bold sm:text-4xl text-3xl underline-offset-8 decoration-1 decoration-black/25  my-2.5  text-black hover:text-[#CB0000]" href="">
+                                Роупджампінг
                             </a>
                             <p class="">
-                                Не дай Бог не любишь
+                                Не дай Боже не любиш
                             </p>
                         </div>
                         <div class="flex flex-col">
-                            <div class="font-Trebuchet font-bold text-4xl  my-2.5">
+                            <div class="font-Trebuchet font-bold sm:text-4xl text-3xl  my-2.5">
                                 $57
                             </div>
                             <span class="font-Trebuchet text-[#777777] line-through text-xl text-end decoration-1 decoration-[#CB0000]">
@@ -174,180 +178,199 @@
                     </div>
                 </div>
             </div>
+            <div class="m-2.5">
+                <div class="my-10 border border-[#E0E0E0] border-solid">
+                    <div class=" flex gap-[30px] flex-wrap md:flex-nowrap items-center py-[40px] px-[25px] rounded-t-md">
+                        <span class="flex-[1_0_auto] text-[28px] text-[#008BAA] font-bold text-center">
+                            $75
+                            <br>
+                            ЗНИЖКА
+                        </span>
+                        <div class="order-first md:order-none">
+                            <span class="text-sm text-[#008BAA] font-normal">
+                                промокод
+                            </span>
+                            <p class="font-bold text-[22px]">
+                                Знижка $75 готівкою при проживанні від 10 ночей
+                            </p>
+                            <p class="text-sm font-normal">
+                                29 користувачів використали промокод
+                            </p>
+                        </div>
+                        <a href="" class="flex-[1_0_auto] text-center text-base text-white bg-main-gradient py-[13px] px-[40px] rounded-3xl">
+                            Отримати знижку
+                        </a>
+                    </div>
+                    <div class="details hidden p-5 border-t">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vitae numquam 
+                        quod a excepturi, cupiditate sapiente dolor nam officia neque, vero quisquam. Dolores 
+                        consectetur, inventore blanditiis id error iure earum.
+                    </div>
+                    <div class="show-btn cursor-pointer flex items-center gap-2.5 justify-center bg-[#F7F7F7] border-t border-solid border-[#E0E0E0] rounded-b-md text-[13px] text-[#777777] text-base text-center py-3">
+                        <span>
+                            Дивіться подробиці
+                        </span>
+                        <img src="./img/tick.png" alt="tick" width="10" height="5">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section>
         <div class="wrapper">
-            <div class="flex">
-                <div class="py-2.5 my-5 pr-10">
-                    <h1 class="font-Trebuchet text-5xl font-bold py-2.5">
-                        36,6 градусов по цельсию и познаватель-ная физика
-                    </h1>
+            <div class="flex p-2.5">
+                <h1 class="font-Trebuchet sm:text-5xl text-4xl font-bold py-2.5">
+                    36,6 градусів за Цельсієм і пізнавальна фізика
+                </h1>
+            </div>
+            <div class="grid p-2.5 sm:grid-cols-12 grid-cols-1 gap-5">
+                <div class="py-2.5 my-5 col-span-9">
                     <p class="text-sm font-bold py-2.5">
-                        Никто не задумывался почему температура человеческого тела 36,6 С? 
-                        Почему не иная? Почему не равна дневной температуре окружающего пространства к примеру? 
-                        Но почему так произошло? Первая причина лежит от нас на временной оси в прошлом на расстоянии 
-                        в несколько миллиардов лет. Именно тогда появилась жизнь.
+                        Ніхто не замислювався чому температура людського тіла 36,6 С? Чому не інша? Чому не 
+                        дорівнює денній температурі навколишнього простору, наприклад? Але чому так сталося? 
+                        Перша причина лежить від нас на часовій осі в минулому на відстані в кілька мільярдів років. 
+                        Саме тоді з'явилося життя.
                     </p> 
                     <p class="text-sm py-2.5">
-                        Грубо говоря первичные репликаторы огородились защитной оболочкой от остальной части 
-                        океана — создав клетки. Клетки это замкнутые водные резервуары, в которых вся жизнедеятельность 
-                        проходит в водной среде. И все сухопутные организмы концептуально это машины выживания
-                        репликаторов, мобильная (в случае с животными), благоприятная водная среда для репродукции, 
-                        окруженная защитной оболочкой от внешнего мира.
+                        Грубо кажучи, первинні реплікатори обгородилися захисною оболонкою від 
+                        решти океану - створивши клітини. Клітини це замкнуті водні резервуари, в яких вся життєдіяльність проходить 
+                        у водному середовищі. І всі сухопутні організми концептуально це машини виживання реплікаторів, мобільне 
+                        (у випадку з тваринами), сприятливе водне середовище для репродукції, оточене захисною оболонкою від зовнішнього світу.
                     </p>
                     <h2 class="text-xl font-bold">
-                        Ищем ответ
+                        Шукаємо відповідь
+
                     </h2>
                     <p class="text-sm pb-2.5">
-                        Что интересно, все теплокровные функционируют в пределах той же области температур что и человек.
-                        Например температура у лошадей 37,5-38,5; у коров 37,5-39,5; кур 40,5-42,5; свиней 39,0-40,0; 
-                        кошек 38,0-39,5; обезьян 38,1; голубей 41,0-44,0. Ответ лежит в области нет, не биологии. 
-                        А в области физики воды. Дело в том, что теплоемкость воды нелинейно зависит от температуры. 
-                        Теплоемкость это количество энергии, которое необходимо потратить для того что бы нагреть 1 кг 
-                        вещества на 1 градус. При увеличении температуры она как бы пикирует как штурмовик, и возносится 
-                        ввысь после прохождения нижней точки в 36,8 градусов Цельсия. В организме человека вода
-                        составляет около 65-70%, её теплоемкость огромна.
+                        Що цікаво, всі теплокровні функціонують у межах тієї самої області температур, що й людина. 
+                        Наприклад температура у коней 37,5-38,5; у корів 37,5-39,5; курей 40,5-42,5; свиней 39,0-40,0; 
+                        кішок 38,0-39,5; мавп 38,1; голубів 41,0-44,0. Відповідь лежить у царині ні, не біології. А в 
+                        галузі фізики води. Річ у тім, що теплоємність води нелінійно залежить від температури. 
+                        Теплоємність - це кількість енергії, яку необхідно витратити для того, щоб нагріти 1 кг 
+                        речовини на 1 градус. При збільшенні температури вона ніби пікірує, як штурмовик, і підноситься 
+                        вгору після проходження нижньої точки в 36,8 градусів Цельсія. В організмі людини вода 
+                        становить близько 65-70%, її теплоємність величезна.
                     </p>
-                    <blockquote class="before:content-[''] before:w-2 before:bg-[#00BFF3] before:mx-5 flex">
+                    <blockquote class="before:content-[''] before:w-4 before:bg-[#008BAA] before:mx-5 flex">
                         <p class="text-sm italic">
-                            Дело в том, что теплоемкость воды нелинейно зависит от температуры. Теплоемкость это
-                            количество энергии, которое необходимо потратить для того что бы нагреть 1 кг вещества на 1 
-                            градус. При увеличении температуры она как бы пикирует как штурмовик, и возносится ввысь после 
-                            прохождения нижней точки в 36,8 градусов Цельсия. В организме человека вода составляет около 
-                            65-70%, её теплоемкость огромна.
+                            Річ у тім, що теплоємність води нелінійно залежить від температури. Теплоємність — це 
+                            кількість енергії, яку необхідно витратити для того, щоб нагріти 1 кг речовини на 1 градус. 
+                            При збільшенні температури вона ніби пікірує, як штурмовик, і підноситься вгору після 
+                            проходження нижньої точки в 36,8 градусів Цельсія. В організмі людини вода становить 
+                            близько 65-70%, її теплоємність величезна.
                         </p>
                     </blockquote>
                     <p class="text-sm py-2.5">
-                        90% энергии получаемой с пищей, теплокровные потому тратят только лишь на поддержание постоянной
-                        температуры внутренней среды. На нагревание воды. Потому эта ямка, минимум, в котором нужно 
-                        было тратить минимальное количество энергии на поддержание своего состояния, как аттрактор, 
-                        стягивал на себя на протяжении эволюции все «модели» теплокровных. Фенотипы, с рабочей 
-                        температурой иных диапазонов были слишком «прожорливыми» и отсеивались отбором.
+                        90% енергії, одержуваної з їжею, теплокровні тому витрачають лише на підтримання постійної 
+                        температури внутрішнього середовища. На нагрівання води. Тому ця ямка, мінімум, в якому 
+                        потрібно було витрачати мінімальну кількість енергії на підтримання свого стану, як атрактор, 
+                        стягував на себе протягом еволюції всі "моделі" теплокровних. Фенотипи, з робочою температурою 
+                        інших діапазонів, були занадто "ненажерливими" і відсіювалися відбором.
                     </p>
                     <h3 class="font-bold ">
                         Хлорофилл и красота
                     </h3>
                     <p class="py-2.5 text-sm">
-                        Могло случится так что небо было бы ядовито-желтое а не голубое. Трава так же красная. Нравился 
-                        бы нам такой пейзаж? Почему красный, ярко-желтый, создают чувство неспокойствия и не подходят 
-                        для идилических райских картин ландшафтов как голубой и зеленый? Дело не в них а в нас. 
-                        Мы продукт эволюции, продукт среды в которой мы развивались. Что и было показано на примере 
-                        температуры тела.
+                        Могло статися так, що небо було б отруйно-жовте, а не блакитне. Трава так само червона. 
+                        Подобався б нам такий пейзаж? Чому червоний, яскраво-жовтий, створюють відчуття неспокою і 
+                        не підходять для ідилічних райських картин ландшафтів як блакитний і зелений? Справа не в 
+                        них, а в нас. Ми продукт еволюції, продукт середовища, в якому ми розвивалися. Що і було 
+                        показано на прикладі температури тіла.
                     </p>
-                    <p class="py-2.5 text-sm">
-                        Начну с далека, так уж нужно, ничего не поделаешь… Зеленым цветом на картинке окрашена трава, 
-                        трава это растение. Первыми вышли задолго до животных на сушу растения. Они сформировали то 
-                        первичное окружение для живых организмов, создали им условия существования на суше. Стали 
-                        источником пищи и крова, ведь животные гетеротрофы. Растения же в основном автотрофы. Так 
-                        вышло что у растений при участии хлорофилла осуществляется процесс фотосинтеза. А по 
-                        совместительству он так же зелёный пигмент, обусловливающий окраску хлоропластов растений в 
-                        зелёный цвет.
-                    </p>
-                    <p class="py-2.5 text-sm">
-                        Так же интересна физическая причина наших понятий красоты.
-                    </p>
-                    <table class="w-full text-sm my-table my-5">
-                        <thead class="bg-[#777777]/20 p-5">
-                          <tr >
-                            <th scope="col"></th>
-                            <th scope="col">Хлорофилл a</th>
-                            <th scope="col">Хлорофилл b</th>
-                            <th scope="col">Хлорофилл c1</th>
-                            <th scope="col">Хлорофилл c2</th>
-                            <th scope="col"></th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="font-bold">
-                                    Формула	         	                      	           
-                                </td>
-                                <td>
-                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
-                                </td>
-                                <td>
-                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
-                                </td>
-                                <td>
-                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
-                                </td>
-                                <td>
-                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
-                                </td>
-                                <td></td>
+                    <div class="overflow-auto">
+                        <table class="w-full text-sm my-table my-5">
+                            <colgroup>
+                              <col span="1" class="w-1/4">
+                              <col span="1" class="w-1/4">
+                              <col span="1" class="w-1/4">
+                              <col span="1" class="w-1/4">
+                            </colgroup>
+                            <thead class="bg-[#F7F7F7] border-0 border-[#E0E0E0] border-solid">
+                            <tr >
+                                <th scope="col">Ім'я</th>
+                                <th scope="col">Сума</th>
+                                <th scope="col">Виплата</th>
+                                <th scope="col">Вид оплати</th>
                             </tr>
-                            <tr>
-                                <td class="font-bold">
-                                    C2 группа                                	                                    	                                  	                                   	          
-                                </td>
-                                <td>
-                                    -C<sub>55</sub> 
-                                </td>
-                                <td>
-                                    -C<sub>55</sub>
-                                </td>
-                                <td>
-                                    -C<sub>55</sub> 
-                                </td>
-                                <td>
-                                    -C<sub>55</sub> 
-                                </td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td class="font-bold">
-                                    C3 группа	         	                      	           
-                                </td>
-                                <td>
-                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
-                                </td>
-                                <td>
-                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg 
-                                </td>
-                                <td>
-                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
-                                </td>
-                                <td>
-                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
-                                </td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-[#F7F7F7] border-solid">
+                                    <td>
+                                        Сергій
+                                    </td>
+                                    <td>
+                                        2459 $
+                                    </td>
+                                    <td>
+                                        375 $
+                                    </td>
+                                    <td>
+                                        Card Payment
+                                    </td>
+                                </tr>
+                                <tr class="border-b border-[#F7F7F7] border-solid">
+                                    <td>
+                                        Микола
+                                    </td>
+                                    <td>
+                                        1569 $
+                                    </td>
+                                    <td>
+                                        582 $
+                                    </td>
+                                    <td>
+                                        Card Payment
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Наталія
+                                    </td>
+                                    <td>
+                                        1759 $
+                                    </td>
+                                    <td>
+                                        965 $
+                                    </td>
+                                    <td>
+                                        Card Payment
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <div class="my-2.5">
                         <p class="text-sm">
-                            Как найти эти консервативные признаки? Наиболее часто рассматривают 5 источников 
-                            информации о них:
+                            Як знайти ці консервативні ознаки? Найчастіше розглядають 5 джерел інформації про них:
                         </p>
                         <ul class="text-sm">
                             <li class="before:content-['-']">
-                                эмбриологические исследования;
+                                ембріологічні дослідження;
                             </li>
                             <li class="before:content-['-']">
-                                тератологические данные;
+                                тератологічні дані;
                             </li>
                             <li class="before:content-['-']">
-                                сравнительно-морфологические данные;
+                                порівняльно-морфологічні дані;
                             </li>
                             <li class="before:content-['-']">
-                                анализ врожденных поведенческих программ (этологические данные);
+                                аналіз вроджених поведінкових програм (етологічні дані);
                             </li>
                             <li class="before:content-['-']">
-                                изучение взаимосвязи с другими видами.
+                                вивчення взаємозв'язку з іншими видами.
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="">
-                    <span class="font-Trebuchet text-[#777777] text-8xl">
+                <div class="col-span-3">
+                    <span class="font-Trebuchet text-[#777777] text-6xl sm:text-8xl">
                         0,71
                     </span>
-                    <p class="text-3xl">
-                        WHR здорового человека 
+                    <p class="sm:text-3xl text-2xl leading-8">
+                        WHR здорової людини  
                     </p>
                     <p class="text-[#777777] text-xl">
-                        Один из весьма надежных оказателей здоровья, фертильности, как раз «waistto hip ratio».
+                        Один із вельми надійних показників здоров'я, фертильності, якраз  «waistto hip ratio».
                     </p>
                 </div>
             </div>
@@ -355,24 +378,24 @@
     </section>
     <footer>
         <div class="wrapper">
-            <div class="border-t border-zinc-500 border-solid py-5">
-                <div class="flex justify-between flex-wrap">
+            <div class="border-t border-zinc-500 border-solid py-5 p-2.5">
+                <div class="flex justify-between flex-wrap gap-2.5">
                     <div class="flex items-center">
                         <p class="text-xs">
-                            2019 Тестовое задание на вакансию верстальщика в компанию
-                            <a href="" class="text-[#00BFF3] underline decoration-[#00BFF3]/25 decoration-1 underline-offset-2">
+                            2023 Тестове завдання на вакансію верстальника в компанію 
+                            <a href="" class="text-[#0059AC] underline decoration-[#0059AC]/25 decoration-1 underline-offset-2">
                                 Aweb
                             </a>
                         </p>
                     </div>
-                    <div class="flex">
-                        <img src="./img/facebook-logo.png" alt="facebook" class="w-8">
-                        <img src="./img/g-logo.png" alt="google" class="w-8">
-                        <img src="./img/insta-logo.png" alt="instagram" class="w-8">
+                    <div class="flex gap-2.5">
+                        <img src="./img/facebook-logo-color.png" alt="facebook" width="32" height="32">
+                        <img src="./img/logos_telegram-color.png" alt="telegram" width="32" height="32">
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

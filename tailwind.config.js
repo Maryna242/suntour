@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         'Trebuchet': 'TrebuchetMS, Helvetica, sans-serif',
       },
+      backgroundImage:{
+        'main-gradient': "linear-gradient(180deg, #00AAAA 0%, #008BAA 100%)"
+      }
     },
   },
   plugins: [],
